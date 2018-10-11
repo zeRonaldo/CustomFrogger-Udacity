@@ -1,6 +1,24 @@
-frontend-nanodegree-arcade-game
-===============================
+# Arcade Game - NanoDegree Frontend Udacity
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+Este Jogo foi parte integrade do NanoDegree Web Front-end Avançado. As tecnologias usadas são básicas e nativas (HTML5, CSS3, Javascript).
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+
+## Como Executar o Jogo
+
+1. Baixe o Projeto (clone ou ZIP)
+2. Jogue os Arquivos dentro de uma pasta do Emulador de Server Local
+3. Abra o jogo no seu Browser favorito
+
+
+
+## Como Jogar
+
+Você precisa chegar até o rio, mas para isso precisa atravessar a estrada que está cheia de insetos. cada passo mais perto do rio você ganha 10 pontos, Cada passo voltando tira 5 pontos. não toque nos insetos eles tiram sua vida.
+
+- Use as teclas direcionais para mover o personagem.
+
+- Cuidado com os Insetos.
+
+- Atravesse com segurança.
+
+Boa Sorte e Bom Jogo!

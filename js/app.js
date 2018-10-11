@@ -1,4 +1,3 @@
-
 // Using constants to easen up the logic
 const UP_DOWN = 83;
 const LEFT_RIGHT = 101;
@@ -86,7 +85,7 @@ Player.prototype.update = function() {
     if (this.y < 35) {
         this.y = 566;
         this.x = 300;
-        player.win();      
+        this.win();      
     }
 };
 
