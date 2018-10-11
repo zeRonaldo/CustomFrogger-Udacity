@@ -1,13 +1,14 @@
 # Arcade Game - NanoDegree Frontend Udacity
 
-Este Jogo foi parte integrade do NanoDegree Web Front-end Avançado. As tecnologias usadas são básicas e nativas (HTML5, CSS3, Javascript).
+Este Jogo foi parte integrante do NanoDegree Web Front-end Avançado. As tecnologias usadas são básicas e nativas (HTML5, CSS3, Javascript).
 
 
 ## Como Executar o Jogo
 
 1. Baixe o Projeto (clone ou ZIP)
 2. Jogue os Arquivos dentro de uma pasta do Emulador de Server Local
-3. Abra o jogo no seu Browser favorito
+3. Abra no seu Browser favorito o index.html do projeto (Ex: localhost/<nome_da_pasta>/index.html OU 192.168.0.1/<nome_da_pasta>/index.html)
+4. Jogue a vontade!
 
 
 
