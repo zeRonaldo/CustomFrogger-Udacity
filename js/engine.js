@@ -24,8 +24,9 @@ var Engine = (function(global) {
         ctx = canvas.getContext('2d'),
         lastTime;
 
-    canvas.width = 707;
-    canvas.height = 772;
+
+    canvas.width = 700;
+    canvas.height = 700;
     doc.body.appendChild(canvas);
 
     /* This function serves as the kickoff point for the game loop itself
@@ -64,8 +65,7 @@ var Engine = (function(global) {
      */
     function init() {
         reset();
-        lastTime = Date.now();
-        main();
+        
     }
 
     /* This function is called by main (our game loop) and itself calls all
@@ -79,7 +79,7 @@ var Engine = (function(global) {
      */
     function update(dt) {
         updateEntities(dt);
-        // checkCollisions();
+        //checkCollisions();
     }
 
     /* This is called by the update function and loops through all of the
@@ -113,9 +113,8 @@ var Engine = (function(global) {
                 'images/stone-block.png',   // Row 3 of 3 of stone
                 'images/grass-block.png',   // Row 1 of 2 of grass
                 'images/stone-block.png',   // Row 3 of 3 of stone
-                'images/grass-block.png'    // Row 2 of 2 of grass
-                'images/stone-block.png',   // Row 3 of 3 of stone
-                
+                'images/grass-block.png',   // Row 2 of 2 of grass
+                'images/stone-block.png'   // Row 3 of 3 of stone
             ],
             numRows = 8,
             numCols = 7,
@@ -164,7 +163,8 @@ var Engine = (function(global) {
      * those sorts of things. It's only called once by the init() method.
      */
     function reset() {
-        // noop
+         lastTime = Date.now();
+         main();
     }
 
     /* Go ahead and load all of the images we know we're going to need to
