@@ -1,3 +1,4 @@
+"use strict";
 // Using constants to easen up the logic
 const UP_DOWN = 83;
 const LEFT_RIGHT = 101;
