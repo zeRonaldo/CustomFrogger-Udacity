@@ -2,6 +2,8 @@
 
 Este Jogo foi parte integrante do NanoDegree Web Front-end Avançado. As tecnologias usadas são básicas e nativas (HTML5, CSS3, Javascript).
 
+## Jogando online
+para jogar online basta acessar [este Link](https://zeronaldo.github.io/CustomFrogger-Udacity/)
 
 ## Como Executar o Jogo
 
